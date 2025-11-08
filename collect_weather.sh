@@ -2,7 +2,13 @@
 # collect_weather.sh
 # get weather for 12 cities (8 Malaysia + 4 capitals) and save to DB
 
-echo "==================== WEATHER DATA COLLECTION ===================="
+# === make cron-safe ===
+DIR="$(cd "$(dirname "$0")" && pwd)"
+LOGDIR="$DIR/logs"
+mkdir -p "$LOGDIR"
+LOGFILE="$LOGDIR/collect_log_$(date +'%Y%m%d_%H%M').txt"
+
+echo "==================== WEATHER DATA COLLECTION ====================" | tee -a "$LOGFILE"
 
 cities=("Kuala_Lumpur" "George_Town" "Kota_Kinabalu" "Kuching" "Johor_Bahru" "Ipoh" "Melaka" "Alor_Setar" "Paris" "Ottawa" "Canberra" "Tokyo")
 
@@ -22,58 +28,60 @@ coords["Tokyo"]="35.6895,139.6917"
 
 for city in "${cities[@]}"
 do
-  echo "------------------------------"
+  echo "------------------------------" | tee -a "$LOGFILE"
   if [[ "$city" == "Kuala_Lumpur" ]]; then
-    echo "MALAYSIA CITIES"
+    echo "MALAYSIA CITIES" | tee -a "$LOGFILE"
   elif [[ "$city" == "Paris" ]]; then
-    echo "WORLD CAPITALS"
+    echo "WORLD CAPITALS" | tee -a "$LOGFILE"
   fi
 
-  echo "getting data for $city"
+  echo "getting data for $city" | tee -a "$LOGFILE"
 
   c=${coords[$city]}
   lat=${c%,*}
   lon=${c#*,}
 
-  curl -s "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&hourly=temperature_2m,apparent_temperature,relative_humidity_2m,surface_pressure,windspeed_10m,winddirection_10m,precipitation,cloudcover,shortwave_radiation,uv_index,dew_point_2m,weathercode&timezone=UTC" > data.json
+  curl -s "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&hourly=temperature_2m,apparent_temperature,relative_humidity_2m,surface_pressure,windspeed_10m,winddirection_10m,precipitation,cloudcover,shortwave_radiation,uv_index,dew_point_2m,weathercode&timezone=UTC" > "$DIR/data.json"
 
   # current hour index
   now_utc=$(date -u +"%Y-%m-%dT%H:00")
-  idx=$(jq -r --arg t "$now_utc" '.hourly.time | index($t)' data.json)
+  idx=$(jq -r --arg t "$now_utc" '.hourly.time | index($t)' "$DIR/data.json")
   [ "$idx" = "null" ] || [ -z "$idx" ] && idx=0
 
   # extract all parameters for current hour
-  temp=$(jq ".hourly.temperature_2m[$idx]" data.json)
-  feel=$(jq ".hourly.apparent_temperature[$idx]" data.json)
-  hum=$(jq ".hourly.relative_humidity_2m[$idx]" data.json)
-  pres=$(jq ".hourly.surface_pressure[$idx]" data.json)
-  wind=$(jq ".hourly.windspeed_10m[$idx]" data.json)
-  winddir=$(jq ".hourly.winddirection_10m[$idx]" data.json)
-  rain=$(jq ".hourly.precipitation[$idx]" data.json)
-  cloud=$(jq ".hourly.cloudcover[$idx]" data.json)
-  sun=$(jq ".hourly.shortwave_radiation[$idx]" data.json)
-  uv=$(jq ".hourly.uv_index[$idx]" data.json)
-  dew=$(jq ".hourly.dew_point_2m[$idx]" data.json)
-  code=$(jq ".hourly.weathercode[$idx]" data.json)
+  temp=$(jq ".hourly.temperature_2m[$idx]" "$DIR/data.json")
+  feel=$(jq ".hourly.apparent_temperature[$idx]" "$DIR/data.json")
+  hum=$(jq ".hourly.relative_humidity_2m[$idx]" "$DIR/data.json")
+  pres=$(jq ".hourly.surface_pressure[$idx]" "$DIR/data.json")
+  wind=$(jq ".hourly.windspeed_10m[$idx]" "$DIR/data.json")
+  winddir=$(jq ".hourly.winddirection_10m[$idx]" "$DIR/data.json")
+  rain=$(jq ".hourly.precipitation[$idx]" "$DIR/data.json")
+  cloud=$(jq ".hourly.cloudcover[$idx]" "$DIR/data.json")
+  sun=$(jq ".hourly.shortwave_radiation[$idx]" "$DIR/data.json")
+  uv=$(jq ".hourly.uv_index[$idx]" "$DIR/data.json")
+  dew=$(jq ".hourly.dew_point_2m[$idx]" "$DIR/data.json")
+  code=$(jq ".hourly.weathercode[$idx]" "$DIR/data.json")
 
-  echo "temp: $temp °C"
-  echo "feel like: $feel °C"
-  echo "humidity: $hum %"
-  echo "pressure: $pres hPa"
-  echo "wind speed: $wind km/h"
-  echo "wind direction: $winddir °"
-  echo "rain: $rain mm"
-  echo "cloud: $cloud %"
-  echo "radiation: $sun W/m²"
-  echo "UV index: $uv"
-  echo "dew point: $dew °C"
-  echo "weather code: $code"
+  {
+    echo "temp: $temp °C"
+    echo "feel like: $feel °C"
+    echo "humidity: $hum %"
+    echo "pressure: $pres hPa"
+    echo "wind speed: $wind km/h"
+    echo "wind direction: $winddir °"
+    echo "rain: $rain mm"
+    echo "cloud: $cloud %"
+    echo "radiation: $sun W/m²"
+    echo "UV index: $uv"
+    echo "dew point: $dew °C"
+    echo "weather code: $code"
+  } | tee -a "$LOGFILE"
 
   time_now=$(date +"%Y-%m-%d %H:%M:%S")
-  ./save_to_db.sh "$city" "$time_now" "$temp" "$wind" "$feel" "$hum" "$pres" "$winddir" "$rain" "$cloud" "$sun" "$uv" "$dew" "$code"
+  "$DIR/save_to_db.sh" "$city" "$time_now" "$temp" "$wind" "$feel" "$hum" "$pres" "$winddir" "$rain" "$cloud" "$sun" "$uv" "$dew" "$code"
 
-  echo "data collected at: $time_now"
-  echo "done for $city"
+  echo "data collected at: $time_now" | tee -a "$LOGFILE"
+  echo "done for $city" | tee -a "$LOGFILE"
 done
 
-echo "==================== ALL CITIES DONE ===================="
+echo "==================== ALL CITIES DONE ====================" | tee -a "$LOGFILE"
