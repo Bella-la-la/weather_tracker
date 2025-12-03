@@ -1,0 +1,196 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 24.8 °C
+feel like: 30.5 °C
+humidity: 94 %
+pressure: 1004 hPa
+wind speed: 1.8 km/h
+wind direction: 307 °
+rain: 0 mm
+cloud: 91 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.7 °C
+weather code: 45
+data collected at: 2025-11-12 23:00:06
+done for Kuala_Lumpur
+------------------------------
+getting data for George_Town
+temp: 26.2 °C
+feel like: 32.1 °C
+humidity: 89 %
+pressure: 1010 hPa
+wind speed: 1.9 km/h
+wind direction: 158 °
+rain: 0.2 mm
+cloud: 94 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.2 °C
+weather code: 95
+data collected at: 2025-11-12 23:00:09
+done for George_Town
+------------------------------
+getting data for Kota_Kinabalu
+temp: 25.8 °C
+feel like: 31.7 °C
+humidity: 93 %
+pressure: 1009.6 hPa
+wind speed: 4.6 km/h
+wind direction: 162 °
+rain: 0 mm
+cloud: 56 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.6 °C
+weather code: 2
+data collected at: 2025-11-12 23:00:10
+done for Kota_Kinabalu
+------------------------------
+getting data for Kuching
+temp: 23 °C
+feel like: 27.7 °C
+humidity: 94 %
+pressure: 1010.2 hPa
+wind speed: 1.6 km/h
+wind direction: 207 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 22 °C
+weather code: 3
+data collected at: 2025-11-12 23:00:12
+done for Kuching
+------------------------------
+getting data for Johor_Bahru
+temp: 25.1 °C
+feel like: 30 °C
+humidity: 89 %
+pressure: 1004.7 hPa
+wind speed: 4.4 km/h
+wind direction: 305 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.1 °C
+weather code: 3
+data collected at: 2025-11-12 23:00:13
+done for Johor_Bahru
+------------------------------
+getting data for Ipoh
+temp: 23.7 °C
+feel like: 29.3 °C
+humidity: 97 %
+pressure: 1004.5 hPa
+wind speed: 0.4 km/h
+wind direction: 270 °
+rain: 0 mm
+cloud: 95 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.2 °C
+weather code: 3
+data collected at: 2025-11-12 23:00:14
+done for Ipoh
+------------------------------
+getting data for Melaka
+temp:  °C
+feel like:  °C
+humidity:  %
+pressure:  hPa
+wind speed:  km/h
+wind direction:  °
+rain:  mm
+cloud:  %
+radiation:  W/m²
+UV index: 
+dew point:  °C
+weather code: 
+data collected at: 2025-11-12 23:04:11
+done for Melaka
+------------------------------
+getting data for Alor_Setar
+temp: 26.3 °C
+feel like: 32.1 °C
+humidity: 90 %
+pressure: 1009.9 hPa
+wind speed: 3.9 km/h
+wind direction: 124 °
+rain: 1 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.5 °C
+weather code: 95
+data collected at: 2025-11-12 23:04:12
+done for Alor_Setar
+------------------------------
+WORLD CAPITALS
+getting data for Paris
+temp: 13.6 °C
+feel like: 12.1 °C
+humidity: 79 %
+pressure: 1004.2 hPa
+wind speed: 10.8 km/h
+wind direction: 165 °
+rain: 0 mm
+cloud: 26 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 10 °C
+weather code: 1
+data collected at: 2025-11-12 23:04:12
+done for Paris
+------------------------------
+getting data for Ottawa
+temp: 0 °C
+feel like: -2.8 °C
+humidity: 97 %
+pressure: 990.7 hPa
+wind speed: 4 km/h
+wind direction: 185 °
+rain: 0 mm
+cloud: 100 %
+radiation: 2.8 W/m²
+UV index: 0
+dew point: -0.4 °C
+weather code: 3
+data collected at: 2025-11-12 23:04:13
+done for Ottawa
+------------------------------
+getting data for Canberra
+temp: 14.9 °C
+feel like: 12.3 °C
+humidity: 47 %
+pressure: 949 hPa
+wind speed: 7.7 km/h
+wind direction: 332 °
+rain: 0 mm
+cloud: 100 %
+radiation: 501 W/m²
+UV index: 3.1
+dew point: 3.7 °C
+weather code: 3
+data collected at: 2025-11-12 23:04:13
+done for Canberra
+------------------------------
+getting data for Tokyo
+temp: 8.6 °C
+feel like: 6.7 °C
+humidity: 73 %
+pressure: 1013.6 hPa
+wind speed: 4 km/h
+wind direction: 350 °
+rain: 0 mm
+cloud: 46 %
+radiation: 12 W/m²
+UV index: 0.05
+dew point: 4.1 °C
+weather code: 1
+data collected at: 2025-11-12 23:04:14
+done for Tokyo
+==================== ALL CITIES DONE ====================

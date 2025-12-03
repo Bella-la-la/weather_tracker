@@ -1,0 +1,196 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 24.8 °C
+feel like: 30.4 °C
+humidity: 91 %
+pressure: 1004.2 hPa
+wind speed: 0.5 km/h
+wind direction: 135 °
+rain: 0 mm
+cloud: 37 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.3 °C
+weather code: 1
+data collected at: 2025-11-30 20:00:07
+done for Kuala_Lumpur
+------------------------------
+getting data for George_Town
+temp: 26.6 °C
+feel like: 31.7 °C
+humidity: 81 %
+pressure: 1009.9 hPa
+wind speed: 2.9 km/h
+wind direction: 353 °
+rain: 0 mm
+cloud: 50 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.1 °C
+weather code: 2
+data collected at: 2025-11-30 20:00:10
+done for George_Town
+------------------------------
+getting data for Kota_Kinabalu
+temp: 25.9 °C
+feel like: 31.5 °C
+humidity: 91 %
+pressure: 1009 hPa
+wind speed: 5.2 km/h
+wind direction: 115 °
+rain: 0 mm
+cloud: 88 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.4 °C
+weather code: 3
+data collected at: 2025-11-30 20:00:12
+done for Kota_Kinabalu
+------------------------------
+getting data for Kuching
+temp: 25 °C
+feel like: 30.5 °C
+humidity: 95 %
+pressure: 1009.6 hPa
+wind speed: 4.3 km/h
+wind direction: 265 °
+rain: 0 mm
+cloud: 88 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.1 °C
+weather code: 3
+data collected at: 2025-11-30 20:00:13
+done for Kuching
+------------------------------
+getting data for Johor_Bahru
+temp: 25.5 °C
+feel like: 31.4 °C
+humidity: 93 %
+pressure: 1005.2 hPa
+wind speed: 2.4 km/h
+wind direction: 27 °
+rain: 0 mm
+cloud: 87 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.3 °C
+weather code: 3
+data collected at: 2025-11-30 20:00:14
+done for Johor_Bahru
+------------------------------
+getting data for Ipoh
+temp: 21.5 °C
+feel like: 24 °C
+humidity: 84 %
+pressure: 1004.3 hPa
+wind speed: 5 km/h
+wind direction: 339 °
+rain: 0 mm
+cloud: 28 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 18.7 °C
+weather code: 1
+data collected at: 2025-11-30 20:00:14
+done for Ipoh
+------------------------------
+getting data for Melaka
+temp: 27.9 °C
+feel like: 33.7 °C
+humidity: 83 %
+pressure: 1009.9 hPa
+wind speed: 5.7 km/h
+wind direction: 325 °
+rain: 0.1 mm
+cloud: 53 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.8 °C
+weather code: 2
+data collected at: 2025-11-30 20:00:15
+done for Melaka
+------------------------------
+getting data for Alor_Setar
+temp: 26.7 °C
+feel like: 31.2 °C
+humidity: 85 %
+pressure: 1010 hPa
+wind speed: 10.8 km/h
+wind direction: 21 °
+rain: 0 mm
+cloud: 22 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.9 °C
+weather code: 1
+data collected at: 2025-11-30 20:00:16
+done for Alor_Setar
+------------------------------
+WORLD CAPITALS
+getting data for Paris
+temp: 6.3 °C
+feel like: 3.9 °C
+humidity: 76 %
+pressure: 1015.2 hPa
+wind speed: 4.7 km/h
+wind direction: 238 °
+rain: 0 mm
+cloud: 0 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 2.4 °C
+weather code: 0
+data collected at: 2025-11-30 20:00:16
+done for Paris
+------------------------------
+getting data for Ottawa
+temp: -0.2 °C
+feel like: -4.4 °C
+humidity: 91 %
+pressure: 1001.9 hPa
+wind speed: 12.7 km/h
+wind direction: 137 °
+rain: 0.6 mm
+cloud: 100 %
+radiation: 57 W/m²
+UV index: 1.05
+dew point: -1.5 °C
+weather code: 73
+data collected at: 2025-11-30 20:00:17
+done for Ottawa
+------------------------------
+getting data for Canberra
+temp: 9 °C
+feel like: 5.1 °C
+humidity: 70 %
+pressure: 939 hPa
+wind speed: 17.1 km/h
+wind direction: 300 °
+rain: 0 mm
+cloud: 11 %
+radiation: 3 W/m²
+UV index: 0
+dew point: 3.8 °C
+weather code: 1
+data collected at: 2025-11-30 20:00:18
+done for Canberra
+------------------------------
+getting data for Tokyo
+temp: 5.8 °C
+feel like: 4.2 °C
+humidity: 89 %
+pressure: 1012.7 hPa
+wind speed: 2.1 km/h
+wind direction: 301 °
+rain: 0 mm
+cloud: 0 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 4.2 °C
+weather code: 0
+data collected at: 2025-11-30 20:00:18
+done for Tokyo
+==================== ALL CITIES DONE ====================

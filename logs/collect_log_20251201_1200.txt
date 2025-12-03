@@ -1,0 +1,196 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 29.4 °C
+feel like: 33.3 °C
+humidity: 67 %
+pressure: 1002 hPa
+wind speed: 8.8 km/h
+wind direction: 282 °
+rain: 0 mm
+cloud: 0 %
+radiation: 69 W/m²
+UV index: 0.35
+dew point: 22.6 °C
+weather code: 0
+data collected at: 2025-12-01 12:00:08
+done for Kuala_Lumpur
+------------------------------
+getting data for George_Town
+temp: 29 °C
+feel like: 32.5 °C
+humidity: 64 %
+pressure: 1008.1 hPa
+wind speed: 7.9 km/h
+wind direction: 300 °
+rain: 0 mm
+cloud: 0 %
+radiation: 74 W/m²
+UV index: 0.4
+dew point: 21.5 °C
+weather code: 0
+data collected at: 2025-12-01 12:00:11
+done for George_Town
+------------------------------
+getting data for Kota_Kinabalu
+temp: 27.1 °C
+feel like: 33.3 °C
+humidity: 86 %
+pressure: 1010.1 hPa
+wind speed: 1.5 km/h
+wind direction: 194 °
+rain: 1.1 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.5 °C
+weather code: 80
+data collected at: 2025-12-01 12:00:13
+done for Kota_Kinabalu
+------------------------------
+getting data for Kuching
+temp: 26.3 °C
+feel like: 31.9 °C
+humidity: 88 %
+pressure: 1009.3 hPa
+wind speed: 4 km/h
+wind direction: 265 °
+rain: 1.7 mm
+cloud: 100 %
+radiation: 3 W/m²
+UV index: 0
+dew point: 24.1 °C
+weather code: 95
+data collected at: 2025-12-01 12:00:14
+done for Kuching
+------------------------------
+getting data for Johor_Bahru
+temp: 27.9 °C
+feel like: 33.1 °C
+humidity: 81 %
+pressure: 1003.6 hPa
+wind speed: 7.2 km/h
+wind direction: 63 °
+rain: 0.2 mm
+cloud: 100 %
+radiation: 35 W/m²
+UV index: 0.3
+dew point: 24.3 °C
+weather code: 3
+data collected at: 2025-12-01 12:00:15
+done for Johor_Bahru
+------------------------------
+getting data for Ipoh
+temp: 28.1 °C
+feel like: 31.7 °C
+humidity: 69 %
+pressure: 1002.3 hPa
+wind speed: 8.6 km/h
+wind direction: 255 °
+rain: 0 mm
+cloud: 11 %
+radiation: 70 W/m²
+UV index: 0.35
+dew point: 21.8 °C
+weather code: 1
+data collected at: 2025-12-01 12:00:16
+done for Ipoh
+------------------------------
+getting data for Melaka
+temp: 29.3 °C
+feel like: 34.6 °C
+humidity: 76 %
+pressure: 1007.9 hPa
+wind speed: 8.3 km/h
+wind direction: 268 °
+rain: 0 mm
+cloud: 74 %
+radiation: 67 W/m²
+UV index: 0.35
+dew point: 24.6 °C
+weather code: 2
+data collected at: 2025-12-01 12:00:17
+done for Melaka
+------------------------------
+getting data for Alor_Setar
+temp: 28.6 °C
+feel like: 32.2 °C
+humidity: 70 %
+pressure: 1008.2 hPa
+wind speed: 11.1 km/h
+wind direction: 257 °
+rain: 0 mm
+cloud: 0 %
+radiation: 70 W/m²
+UV index: 0.35
+dew point: 22.6 °C
+weather code: 0
+data collected at: 2025-12-01 12:00:18
+done for Alor_Setar
+------------------------------
+WORLD CAPITALS
+getting data for Paris
+temp: 5.4 °C
+feel like: 1.5 °C
+humidity: 79 %
+pressure: 1011.6 hPa
+wind speed: 14.4 km/h
+wind direction: 180 °
+rain: 0 mm
+cloud: 91 %
+radiation: 154.5 W/m²
+UV index: 1.2
+dew point: 2.1 °C
+weather code: 3
+data collected at: 2025-12-01 12:00:18
+done for Paris
+------------------------------
+getting data for Ottawa
+temp: -9.6 °C
+feel like: -15.1 °C
+humidity: 66 %
+pressure: 1015.7 hPa
+wind speed: 12.8 km/h
+wind direction: 286 °
+rain: 0 mm
+cloud: 0 %
+radiation: 0 W/m²
+UV index: 0
+dew point: -14.8 °C
+weather code: 0
+data collected at: 2025-12-01 12:00:19
+done for Ottawa
+------------------------------
+getting data for Canberra
+temp: 9.2 °C
+feel like: 6.5 °C
+humidity: 65 %
+pressure: 941.1 hPa
+wind speed: 7 km/h
+wind direction: 291 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 2.9 °C
+weather code: 3
+data collected at: 2025-12-01 12:00:20
+done for Canberra
+------------------------------
+getting data for Tokyo
+temp: 13.6 °C
+feel like: 13.1 °C
+humidity: 81 %
+pressure: 1009.5 hPa
+wind speed: 4 km/h
+wind direction: 297 °
+rain: 0 mm
+cloud: 73 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 10.4 °C
+weather code: 2
+data collected at: 2025-12-01 12:00:21
+done for Tokyo
+==================== ALL CITIES DONE ====================
