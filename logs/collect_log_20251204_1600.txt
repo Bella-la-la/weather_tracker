@@ -1,0 +1,16 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 25.6 °C
+feel like: 31.3 °C
+humidity: 90 %
+pressure: 1007.1 hPa
+wind speed: 2 km/h
+wind direction: 135 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.9 °C
+weather code: 3

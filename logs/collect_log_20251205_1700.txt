@@ -1,0 +1,177 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 25.9 °C
+feel like: 31.6 °C
+humidity: 90 %
+pressure: 1006 hPa
+wind speed: 2.7 km/h
+wind direction: 67 °
+rain: 1.9 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.1 °C
+weather code: 95
+data collected at: 2025-12-05 17:00:07
+done for Kuala_Lumpur
+------------------------------
+getting data for George_Town
+temp: 26.4 °C
+feel like: 31.6 °C
+humidity: 85 %
+pressure: 1011.8 hPa
+wind speed: 5 km/h
+wind direction: 60 °
+rain: 2.2 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.7 °C
+weather code: 95
+data collected at: 2025-12-05 17:02:08
+done for George_Town
+------------------------------
+getting data for Kota_Kinabalu
+temp: 26.4 °C
+feel like: 32.4 °C
+humidity: 91 %
+pressure: 1010.1 hPa
+wind speed: 4 km/h
+wind direction: 153 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.8 °C
+weather code: 3
+data collected at: 2025-12-05 17:04:08
+done for Kota_Kinabalu
+------------------------------
+getting data for Kuching
+temp: 25 °C
+feel like: 30.7 °C
+humidity: 93 %
+pressure: 1011 hPa
+wind speed: 2.2 km/h
+wind direction: 261 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.8 °C
+weather code: 3
+data collected at: 2025-12-05 17:06:11
+done for Kuching
+------------------------------
+getting data for Johor_Bahru
+temp: 25.9 °C
+feel like: 31.5 °C
+humidity: 87 %
+pressure: 1006.6 hPa
+wind speed: 2.3 km/h
+wind direction: 309 °
+rain: 0 mm
+cloud: 39 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.6 °C
+weather code: 1
+data collected at: 2025-12-05 17:08:08
+done for Johor_Bahru
+------------------------------
+getting data for Ipoh
+temp: 24.5 °C
+feel like: 30 °C
+humidity: 96 %
+pressure: 1006.3 hPa
+wind speed: 3.5 km/h
+wind direction: 24 °
+rain: 0.7 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.8 °C
+weather code: 80
+data collected at: 2025-12-05 17:09:55
+done for Ipoh
+------------------------------
+getting data for Melaka
+temp: 27.4 °C
+feel like: 32.4 °C
+humidity: 83 %
+pressure: 1011.8 hPa
+wind speed: 8.7 km/h
+wind direction: 24 °
+rain: 1.1 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.3 °C
+weather code: 95
+data collected at: 2025-12-05 17:11:47
+done for Melaka
+------------------------------
+getting data for Alor_Setar
+temp: 26.9 °C
+feel like: 30.9 °C
+humidity: 86 %
+pressure: 1011.9 hPa
+wind speed: 16.5 km/h
+wind direction: 36 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.4 °C
+weather code: 3
+data collected at: 2025-12-05 17:13:37
+done for Alor_Setar
+------------------------------
+WORLD CAPITALS
+getting data for Paris
+temp: 6.2 °C
+feel like: 2.5 °C
+humidity: 82 %
+pressure: 1006.6 hPa
+wind speed: 14.2 km/h
+wind direction: 164 °
+rain: 0 mm
+cloud: 100 %
+radiation: 15 W/m²
+UV index: 0.1
+dew point: 3.3 °C
+weather code: 3
+data collected at: 2025-12-05 17:15:23
+done for Paris
+------------------------------
+getting data for Ottawa
+temp: -15.9 °C
+feel like: -20.4 °C
+humidity: 80 %
+pressure: 1010.1 hPa
+wind speed: 5.2 km/h
+wind direction: 78 °
+rain: 0 mm
+cloud: 100 %
+radiation: 250.2 W/m²
+UV index: 1.4
+dew point: -18.5 °C
+weather code: 3
+data collected at: 2025-12-05 17:17:09
+done for Ottawa
+------------------------------
+getting data for Canberra
+temp: 17.1 °C
+feel like: 15.3 °C
+humidity: 41 %
+pressure: 941.5 hPa
+wind speed: 1.8 km/h
+wind direction: 349 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 3.7 °C
+weather code: 3

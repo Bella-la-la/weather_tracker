@@ -1,1 +1,0 @@
-0 * * * * /home/devin1/weather-tracker/collect_weather.sh >> /home/devin1/weather-tracker/logs/cron_output.txt 2>&1
