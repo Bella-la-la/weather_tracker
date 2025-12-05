@@ -175,3 +175,19 @@ radiation: 0 W/m²
 UV index: 0
 dew point: 3.7 °C
 weather code: 3
+data collected at: 2025-12-05 17:18:52
+done for Canberra
+------------------------------
+getting data for Tokyo
+temp: 4.3 °C
+feel like: 1.5 °C
+humidity: 64 %
+pressure: 1017.7 hPa
+wind speed: 3.2 km/h
+wind direction: 297 °
+rain: 0 mm
+cloud: 0 %
+radiation: 0 W/m²
+UV index: 0
+dew point: -1.9 °C
+weather code: 0
