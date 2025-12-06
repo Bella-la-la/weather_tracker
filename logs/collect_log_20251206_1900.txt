@@ -1,0 +1,32 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 25.3 °C
+feel like: 31.7 °C
+humidity: 98 %
+pressure: 1004.6 hPa
+wind speed: 1.8 km/h
+wind direction: 307 °
+rain: 0 mm
+cloud: 84 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.9 °C
+weather code: 45
+data collected at: 2025-12-06 19:00:07
+done for Kuala_Lumpur
+------------------------------
+getting data for George_Town
+temp: 26.9 °C
+feel like: 32.7 °C
+humidity: 86 %
+pressure: 1010.3 hPa
+wind speed: 3.8 km/h
+wind direction: 49 °
+rain: 0 mm
+cloud: 92 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.4 °C
+weather code: 3

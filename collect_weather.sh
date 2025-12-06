@@ -1,14 +1,10 @@
-#!/bin/bash
-# collect_weather.sh
-# get weather for 12 cities (8 Malaysia + 4 capitals) and save to DB
 
-# === make cron-safe ===
 DIR="$(cd "$(dirname "$0")" && pwd)"
 LOGDIR="$DIR/logs"
 mkdir -p "$LOGDIR"
 LOGFILE="$LOGDIR/collect_log_$(date +'%Y%m%d_%H%M').txt"
 
-echo "==================== WEATHER DATA COLLECTION ====================" | tee -a "$LOGFILE"
+echo "WEATHER DATA COLLECTION" | tee -a "$LOGFILE"
 
 cities=("Kuala_Lumpur" "George_Town" "Kota_Kinabalu" "Kuching" "Johor_Bahru" "Ipoh" "Melaka" "Alor_Setar" "Paris" "Ottawa" "Canberra" "Tokyo")
 
@@ -28,7 +24,7 @@ coords["Tokyo"]="35.6895,139.6917"
 
 for city in "${cities[@]}"
 do
-  echo "------------------------------" | tee -a "$LOGFILE"
+  echo "-" | tee -a "$LOGFILE"
   if [[ "$city" == "Kuala_Lumpur" ]]; then
     echo "MALAYSIA CITIES" | tee -a "$LOGFILE"
   elif [[ "$city" == "Paris" ]]; then
@@ -43,12 +39,11 @@ do
 
   curl -s "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&hourly=temperature_2m,apparent_temperature,relative_humidity_2m,surface_pressure,windspeed_10m,winddirection_10m,precipitation,cloudcover,shortwave_radiation,uv_index,dew_point_2m,weathercode&timezone=UTC" > "$DIR/data.json"
 
-  # current hour index
   now_utc=$(date -u +"%Y-%m-%dT%H:00")
   idx=$(jq -r --arg t "$now_utc" '.hourly.time | index($t)' "$DIR/data.json")
   [ "$idx" = "null" ] || [ -z "$idx" ] && idx=0
 
-  # extract all parameters for current hour
+
   temp=$(jq ".hourly.temperature_2m[$idx]" "$DIR/data.json")
   feel=$(jq ".hourly.apparent_temperature[$idx]" "$DIR/data.json")
   hum=$(jq ".hourly.relative_humidity_2m[$idx]" "$DIR/data.json")
@@ -84,4 +79,4 @@ do
   echo "done for $city" | tee -a "$LOGFILE"
 done
 
-echo "==================== ALL CITIES DONE ====================" | tee -a "$LOGFILE"
+echo " ALL CITIES DONE" | tee -a "$LOGFILE"
