@@ -191,3 +191,6 @@ radiation: 0 W/m²
 UV index: 0
 dew point: -1.9 °C
 weather code: 0
+data collected at: 2025-12-05 17:20:34
+done for Tokyo
+==================== ALL CITIES DONE ====================

@@ -1,0 +1,96 @@
+==================== WEATHER DATA COLLECTION ====================
+------------------------------
+MALAYSIA CITIES
+getting data for Kuala_Lumpur
+temp: 24.4 °C
+feel like: 29.6 °C
+humidity: 93 %
+pressure: 1004.1 hPa
+wind speed: 2.7 km/h
+wind direction: 293 °
+rain: 0 mm
+cloud: 88 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.2 °C
+weather code: 3
+data collected at: 2025-12-05 21:00:07
+done for Kuala_Lumpur
+------------------------------
+getting data for George_Town
+temp: 26.4 °C
+feel like: 32.1 °C
+humidity: 88 %
+pressure: 1009.4 hPa
+wind speed: 3.4 km/h
+wind direction: 58 °
+rain: 0 mm
+cloud: 66 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.2 °C
+weather code: 2
+data collected at: 2025-12-05 21:02:04
+done for George_Town
+------------------------------
+getting data for Kota_Kinabalu
+temp: 26 °C
+feel like: 31.7 °C
+humidity: 90 %
+pressure: 1008.2 hPa
+wind speed: 4.3 km/h
+wind direction: 156 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 24.3 °C
+weather code: 3
+data collected at: 2025-12-05 21:04:00
+done for Kota_Kinabalu
+------------------------------
+getting data for Kuching
+temp: 24.4 °C
+feel like: 30.3 °C
+humidity: 97 %
+pressure: 1009.2 hPa
+wind speed: 1.1 km/h
+wind direction: 252 °
+rain: 0.8 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.9 °C
+weather code: 95
+data collected at: 2025-12-05 21:05:45
+done for Kuching
+------------------------------
+getting data for Johor_Bahru
+temp: 25.5 °C
+feel like: 30.9 °C
+humidity: 90 %
+pressure: 1004.6 hPa
+wind speed: 3.7 km/h
+wind direction: 349 °
+rain: 0 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.7 °C
+weather code: 3
+data collected at: 2025-12-05 21:07:29
+done for Johor_Bahru
+------------------------------
+getting data for Ipoh
+temp: 23.6 °C
+feel like: 29.2 °C
+humidity: 98 %
+pressure: 1004.4 hPa
+wind speed: 0.8 km/h
+wind direction: 63 °
+rain: 0.4 mm
+cloud: 100 %
+radiation: 0 W/m²
+UV index: 0
+dew point: 23.3 °C
+weather code: 80
